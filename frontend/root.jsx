@@ -1,7 +1,7 @@
 import React from 'react';
 import Clock from './clock';
 import Tabs from './tabs';
-
+import Weather from './weather';
 
 const Root = () => {
 
@@ -14,7 +14,11 @@ const Root = () => {
   return (
     <>
       <Clock />
-      <Tabs tabs={tabs} />
+      <div className="taw-container">
+        <Tabs tabs={tabs} />
+        <Weather />
+      </div>
+      
     </>
   )
 }

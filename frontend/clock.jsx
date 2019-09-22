@@ -33,7 +33,7 @@ class Clock extends React.Component {
   render() {
     return (
       <>
-        <h1 className="stark-clock glow">Stark Clock</h1>
+        <h1 className="stark-clock glow">Stark Industries</h1>
         <div className="time-date-container">
           <span className="time">
             <p>Time: </p>

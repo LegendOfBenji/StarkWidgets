@@ -20,17 +20,21 @@ class Tabs extends React.Component {
 
     return (
       <>
-      <h1>Tabs</h1>
-      <div className="tabs">
-        <Headers 
-          selectedTab={this.state.selectedTab}
-          changeTab={this.selectedTab}
-          tabs={this.props.tabs}
-        >
-        </Headers>
-        <div className="content">
-          <article id={content.id}>
-          </article>
+      <div className="all-tabs">
+        <h1 className="tab-title">Tabs</h1>
+        <div className="tabs-container">
+          <div className="tabs">
+            <Headers 
+              selectedTab={this.state.selectedTab}
+              changeTab={this.selectedTab}
+              tabs={this.props.tabs}
+            >
+            </Headers>
+            <div className="content">
+              <article id={content.id}>
+              </article>
+            </div>
+          </div>
         </div>
       </div>
       </>
