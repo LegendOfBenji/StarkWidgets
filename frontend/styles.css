@@ -1,0 +1,81 @@
+body {
+  background-image: url("./images/AvengersTonyStark.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h1 {
+  font-family: 'Vollkorn SC', serif;
+  font-size: 50px;
+  
+}
+
+.time-date-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 4px solid black;
+  border-radius: 8px;
+  margin: 0 auto;
+  padding: 15px 30px;
+  width: 1000px;
+  background-image: url("./images/IronMan3Suit.jpg");
+  background-size: 100%;
+  background-position: 1060px 550px;
+  opacity: 0.75;
+}
+
+.stark-clock {
+  text-align: center;
+  margin-right: 600px;
+  color: brown;
+}
+
+.time, .date {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  font-family: 'Saira Stencil One', cursive;
+}
+
+.glow {
+  font-size: 70px;
+  color: brown;
+  text-align: center;
+  -webkit-animation: glow 0.8s ease-in-out infinite alternate;
+  -moz-animation: glow 0.8s ease-in-out infinite alternate;
+  animation: glow 0.8s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px white, 0 0 40px white, 0 0 50px white, 0 0 60px white, 0 0 70px white;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px lightseagreen, 0 0 40px lightseagreen, 0 0 50px lightseagreen, 0 0 60px lightseagreen, 0 0 70px lightseagreen, 0 0 80px lightseagreen;
+  }
+}
+
+#one {
+  background-image: url("./images/TonyStarkOkay.gif");
+  background-repeat: no-repeat;
+  height: 260px;
+  width: 500px;
+}
+
+#two {
+  background-image: url("./images/ThanosSnap.gif");
+  background-repeat: no-repeat;
+  height: 260px;
+  width: 500px;
+}
+
+#three {
+  background-image: url("./images/TonySnap.gif");
+  background-repeat: no-repeat;
+  height: 260px;
+  width: 500px;
+}
+
+/* for autocomplete background image
+https://images5.alphacoders.com/320/thumb-1920-320927.jpg */
