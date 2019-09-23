@@ -4,7 +4,7 @@ Welcome to our interpretation of the widgets app! An app we have decided to fini
 app academy students. It took us quite a few hours over a two day period and we are quite proud of what we have to show.
 
 We have a few bonus implementations that we plan to add when when we have the time. Hopefully they will give you the 'wow'
-factor that we think it will bring. (hint: I don't feel so well mr. Stark...)
+factor that we think it will bring. (hint: I don't feel so well Mr. Stark...)
 
 Things we learned:
 1. How to debug both an API call and debug react by following the 'waterfall' flow of react.
@@ -18,7 +18,7 @@ Things we learned:
 
 Please let us know if you see any immediate flaws in our code or have any comments in general. You can contact us at:
 Benjamin Gu: TheBenjimoto@gmail.com 
-Tayyab Iqbal: FILLIN
+Tayyab Iqbal: tayyab12308@gmail.com
 
 May you have a wonderful coding journey and life.
 -Tayyab and Benji
