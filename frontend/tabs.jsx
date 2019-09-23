@@ -21,7 +21,7 @@ class Tabs extends React.Component {
     return (
       <>
       <div className="all-tabs">
-        <h1 className="tab-title">Tabs</h1>
+        <h1 className="taw-title">Tabs</h1>
         <div className="tabs-container">
           <div className="tabs">
             <Headers 

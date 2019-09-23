@@ -34,8 +34,8 @@ h1 {
 .taw-container {
   display: flex;
   align-items: row;
-  justify-content: space-between;
-  margin: 0 200px;
+  justify-content: space-around;
+  margin: 0 100px;
 }
 
 
@@ -71,7 +71,7 @@ h1 {
 }
 
 /* Tabs */
-.tab-title {
+.taw-title {
   display: inline-block;
   color: brown;
   width: 250px;
@@ -136,10 +136,6 @@ h1 {
 
 /* Weather */
 
-.weather-title {
-
-}
-
 .weather-container {
   border: 3px solid black;
   border-radius: 5px;
@@ -149,11 +145,33 @@ h1 {
   background-size: 100%;
   color: whitesmoke;
   font-family: 'Permanent Marker', cursive;
-  /* align-items: column;
-  justify-content: center; */
   font-size: 25px;
   opacity: .85;
 }
 
-/* for autocomplete background image
-https://images5.alphacoders.com/320/thumb-1920-320927.jpg */
+/* Avengers */
+
+
+.auto-body {
+  border: 3px solid black;
+  width: 495px;
+  height: 335px;
+  background-image: url("./images/IronManBlueprint.jpg");
+  background-size: 100%;
+  font-family: 'Permanent Marker', cursive;
+  border-radius: 8px;
+}
+
+#search-bar {
+  margin-left: 50px;
+  border-radius: 5px;
+  padding: 2px;
+  margin-top: 10px;
+}
+
+.avengers-list {
+  color: whitesmoke;
+  margin-left: 50px;
+  list-style-type: none;
+  font-family: 'Saira Stencil One', cursive;
+}
